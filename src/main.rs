@@ -2,6 +2,7 @@ fn main() {
     println!("Hello, world!");
     println!("2 + 2 = {}", add(2, 2));
     println!("100 - 34 = {}", sub(100, 33));
+    println!("6 + 7 = {}", add(6, 7));
 }
 
 fn add(a: isize, b: isize) -> isize {
